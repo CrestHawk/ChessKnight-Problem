@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChessKnightProblem": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E4\" \"F6\" \"2\""
+    }
+  }
+}
