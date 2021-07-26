@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Board\" />
+    <Compile Remove="Board\**" />
+    <EmbeddedResource Remove="Board\**" />
+    <None Remove="Board\**" />
   </ItemGroup>
 
   <ItemGroup>

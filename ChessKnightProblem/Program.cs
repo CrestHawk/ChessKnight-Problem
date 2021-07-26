@@ -1,5 +1,6 @@
 ﻿using System;
 using Chess;
+using ChessKnightProblem.CLI;
 
 namespace ChessKnightProblem
 {
@@ -16,6 +17,8 @@ namespace ChessKnightProblem
             Console.WriteLine($"Hello! Knight is starting at position {startingPosition}, and will attempt to move to {desiredPosition} in {numberOfMoves} moves");
 
             Board chessBoard = new Board();
+
+            BoardWriter writer = new BoardWriter();
             
             Console.ReadLine();
         }
